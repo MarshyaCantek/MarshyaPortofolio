@@ -1,0 +1,72 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --font-display: "Instrument Serif", ui-serif, Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --radius: 1rem;
+  --background: oklch(0.985 0.008 60);
+  --foreground: oklch(0.22 0.02 25);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.22 0.02 25);
+  --primary: oklch(0.32 0.04 25);
+  --primary-foreground: oklch(0.98 0.01 60);
+  --secondary: oklch(0.93 0.04 25);
+  --secondary-foreground: oklch(0.32 0.04 25);
+  --muted: oklch(0.95 0.015 60);
+  --muted-foreground: oklch(0.48 0.03 25);
+  --accent: oklch(0.82 0.08 20);
+  --accent-foreground: oklch(0.22 0.02 25);
+  --border: oklch(0.9 0.02 40);
+  --ring: oklch(0.82 0.08 20);
+
+  --blush: oklch(0.9 0.06 20);
+  --cream: oklch(0.96 0.025 70);
+  --terracotta: oklch(0.68 0.12 35);
+  --sage: oklch(0.72 0.05 145);
+
+  --gradient-warm: linear-gradient(135deg, oklch(0.94 0.04 25), oklch(0.92 0.05 60));
+  --gradient-hero: radial-gradient(at 20% 30%, oklch(0.92 0.06 20 / 0.7), transparent 60%),
+                   radial-gradient(at 80% 70%, oklch(0.9 0.05 60 / 0.6), transparent 55%),
+                   oklch(0.985 0.008 60);
+  --shadow-soft: 0 20px 50px -20px oklch(0.5 0.06 25 / 0.18);
+  --shadow-card: 0 10px 30px -15px oklch(0.4 0.05 25 / 0.15);
+}
+
+@layer base {
+  * { border-color: var(--color-border); }
+  html { scroll-behavior: smooth; }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; letter-spacing: -0.02em; }
+}
