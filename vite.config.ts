@@ -12,11 +12,4 @@ export default defineConfig({
   tanstackStart: {
     server: { entry: "server" },
   },
-
-  vite: {
-    ssr: {
-      external: ["react", "react-dom"],
-      noExternal: ["@tanstack/react-start"],
-    },
-  },
 });
