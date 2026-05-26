@@ -18,6 +18,10 @@ import projZeroWaste from "@/assets/project-zerowaste.jpg";
 import projGlowie from "@/assets/project-glowie.jpg";
 import projEstavine from "@/assets/project-estavine.jpg";
 import imgProjectPersonal from "@/assets/project-4.png";
+import projTracker from "@/assets/expense-tracker-app.png";
+
+import marshyaPhoto from "@/assets/marshya.jpeg";
+
 import cert1 from "@/assets/cert1.jpeg";
 import cert2 from "@/assets/cert2.jpeg";
 import cert3 from "@/assets/cert3.jpeg";
@@ -123,11 +127,18 @@ const projects = [
     link: "https://www.instagram.com/estavine.co/",
   },
   {
-    title: "Personal Website",
-    tag: "Portofolio",
+    title: "Website Course Dicoding",
+    tag: "Course Dicoding",
     img: imgProjectPersonal,
     desc: "First website after learning HTML, CSS and Javascript language",
-    link: "",
+    link: "https://dicoding-project-flame.vercel.app/",
+  },
+  {
+    title: "Expense Tracker App",
+    tag: "Track.io",
+    img: projTracker,
+    desc: "Developed a responsive expense tracker website to help users manage daily income and expenses efficiently.",
+    link: "https://expense-trackerio.vercel.app/",
   },
 ];
 
@@ -251,11 +262,15 @@ function Portfolio() {
               style={{ boxShadow: "var(--shadow-soft)" }}
             >
               <div className="absolute inset-0" style={{ background: "var(--gradient-warm)" }} />
+
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="font-display text-[12rem] italic text-foreground/15 leading-none">
-                  M
-                </span>
+                <img
+                  src={marshyaPhoto}
+                  alt="Marshya"
+                  className="w-72 h-72 object-cover rounded-full border-4 border-white/30 shadow-xl"
+                />
               </div>
+
               <div
                 className="absolute bottom-6 left-6 right-6 rounded-2xl bg-card/80 backdrop-blur p-4 text-sm"
                 style={{ boxShadow: "var(--shadow-card)" }}
