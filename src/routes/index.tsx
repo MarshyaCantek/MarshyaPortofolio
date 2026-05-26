@@ -17,6 +17,7 @@ import projProdify from "@/assets/project-prodify.jpg";
 import projZeroWaste from "@/assets/project-zerowaste.jpg";
 import projGlowie from "@/assets/project-glowie.jpg";
 import projEstavine from "@/assets/project-estavine.jpg";
+import imgProjectPersonal from "@/assets/project-4.png";
 import cert1 from "@/assets/cert1.jpeg";
 import cert2 from "@/assets/cert2.jpeg";
 import cert3 from "@/assets/cert3.jpeg";
@@ -58,20 +59,26 @@ const experiences = [
   {
     role: "Finance, Marketing & Social Media Designer",
     org: "@estavine.co — Collaborative Business",
-    period: "2026 — now",
+    period: "April 2026 — Present",
     desc: "Estavine is a collaborative handmade business where I work as finance and social media designer, responsible for financial management and creative social media content.",
   },
   {
     role: "Cashier & Host Live",
     org: "PT. Selahorje Jaya Abadi",
-    period: "4 Months",
-    desc: "Responsible for providing customer service and promoting products through digital media as a cashier and live host.",
+    period: "May 2025 - September 2025",
+    desc: "My experience as a cashier also improved my ability to understand user behavior and create solutions that focus on convenience, efficiency, and better user experience.",
   },
   {
     role: "Digital Marketing",
-    org: "Dapoer Pak Jack, FnB",
-    period: "2020 — 2025",
+    org: "Dapoer Pak Jack",
+    period: "March 2023 – May 2025",
     desc: "Promoting the business through social media content and handling buffet order reservations.",
+  },
+  {
+    role: "Social Media Designer",
+    org: "@brigpasda_ssd",
+    period: "February 2023 – December 2024",
+    desc: "Created engaging and visually consistent content to support branding and increase audience engagement on social media platforms.",
   },
 ];
 
@@ -114,6 +121,13 @@ const projects = [
     img: projEstavine,
     desc: "Marketplace concept for handmade accessories and crochet products — aesthetic visual design with product showcases and a responsive UI.",
     link: "https://www.instagram.com/estavine.co/",
+  },
+  {
+    title: "Personal Website",
+    tag: "Portofolio",
+    img: imgProjectPersonal,
+    desc: "First website after learning HTML, CSS and Javascript language",
+    link: "",
   },
 ];
 
