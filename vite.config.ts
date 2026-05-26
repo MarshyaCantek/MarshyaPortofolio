@@ -15,7 +15,8 @@ export default defineConfig({
 
   vite: {
     ssr: {
-      noExternal: true,
+      external: ["react", "react-dom"],
+      noExternal: ["@tanstack/react-start"],
     },
   },
 });
