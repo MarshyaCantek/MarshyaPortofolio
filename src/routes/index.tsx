@@ -49,7 +49,7 @@ export const Route = createFileRoute("/")({
   component: Portfolio,
 });
 
-const hardSkills = ["Cisco", "HTML", "Python", "Canva", "VsCode", "GitHub", "Figma", "Word"];
+const hardSkills = ["Cisco", "HTML", "CSS", "JavaScript", "Python", "Canva", "VsCode", "GitHub", "Figma", "Ms Office"];
 const softSkills = [
   { icon: Users, label: "Communication" },
   { icon: Heart, label: "Teamwork" },
