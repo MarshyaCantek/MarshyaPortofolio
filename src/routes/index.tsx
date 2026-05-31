@@ -376,7 +376,7 @@ function Portfolio() {
               className="group rounded-3xl overflow-hidden bg-card border border-border hover:border-accent/50 transition"
               style={{ boxShadow: "var(--shadow-card)" }}
             >
-              <div className="aspect-[4/3] overflow-hidden">
+              <div className="aspect-[16/10] overflow-hidden">
                 <img
                   src={p.img}
                   alt={p.title}
