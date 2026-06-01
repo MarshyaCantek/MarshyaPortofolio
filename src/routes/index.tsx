@@ -29,6 +29,8 @@ import cert4 from "@/assets/cert4.jpeg";
 import cert5 from "@/assets/cert5.jpeg";
 import cert6 from "@/assets/cert6.jpeg";
 import cert7 from "@/assets/cert7.jpeg";
+import cert8 from "@/assets/cert8.jpg";
+import cert9 from "@/assets/cert9.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
