@@ -39,7 +39,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Portfolio Marshya Salsabilla — Informatics Engineering student passionate about frontend development and modern UI design.",
+          "Portfolio Marshya Salsabilla — Informatics Engineering student passionate about frontend development and modern UI/UX design.",
       },
       { property: "og:title", content: "Marshya Salsabilla — Frontend Developer & UI/UX Designer" },
       {
@@ -113,7 +113,7 @@ const education = [
 const projects = [
   {
     title: "Prodify",
-    tag: "Mobile App · UI Design",
+    tag: "Mobile App · UI/UX Design",
     img: projProdify,
     desc: "Productivity and time management mobile app interface. Clean, user-friendly UI with activity tracking and responsive layouts built in Figma.",
     link: "https://www.figma.com/design/NrcffbhggwkGXjAVA485MX/prodify?node-id=0-1&t=ngLlmPVsmtqzPKcS-1",
@@ -229,7 +229,7 @@ function Portfolio() {
             <h1 className="mt-6 font-display text-6xl md:text-8xl leading-[0.95]">
               Hi, I'm <em className="italic text-accent">Marshya</em>
               <br />
-              <span className="text-foreground/90">a frontend & UI designer</span>
+              <span className="text-foreground/90">a frontend & UI/UX designer</span>
             </h1>
             <p className="mt-8 max-w-xl text-lg text-muted-foreground leading-relaxed">
               Informatics Engineering student crafting modern, responsive, and user-friendly
