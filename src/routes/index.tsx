@@ -35,13 +35,13 @@ import cert9 from "@/assets/cert9.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Marshya Salsabilla — FrontEnd Developer & UI/UX Designer" },
+      { title: "Marshya Salsabilla — frontend Developer & UI/UX designer" },
       {
         name: "description",
         content:
-          "Portfolio Marshya Salsabilla — Informatics Engineering student passionate about FrontEnd development and modern UI/UX design.",
+          "Portfolio Marshya Salsabilla — Informatics Engineering student passionate about frontend development and modern UI/UX design.",
       },
-      { property: "og:title", content: "Marshya Salsabilla — FrontEnd Developer & UI/UX Designer" },
+      { property: "og:title", content: "Marshya Salsabilla — frontend Developer & UI/UX designer" },
       {
         property: "og:description",
         content: "Crafting modern, responsive, and user friendly digital experiences.",
@@ -229,7 +229,7 @@ function Portfolio() {
             <h1 className="mt-6 font-display text-6xl md:text-8xl leading-[0.95]">
               Hi, I'm <em className="italic text-accent">Marshya</em>
               <br />
-              <span className="text-foreground/90">a FrontEnd & UI/UX Designer</span>
+              <span className="text-foreground/90">a frontend & UI/UX designer</span>
             </h1>
             <p className="mt-8 max-w-xl text-lg text-muted-foreground leading-relaxed">
               Informatics Engineering student crafting modern, responsive, and user-friendly
