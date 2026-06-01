@@ -13,12 +13,12 @@ import {
   Phone,
 } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import projProdify from "@/assets/project-prodify.jpg";
-import projZeroWaste from "@/assets/project-zerowaste.jpg";
-import projGlowie from "@/assets/project-glowie.jpg";
-import projEstavine from "@/assets/project-estavine.jpg";
-import imgProjectPersonal from "@/assets/project-4.png";
-import projTracker from "@/assets/expense-tracker-app.png";
+import projProdify from "@/assetss/prodify.jpg";
+import projZeroWaste from "@/assets/zerowaste.jpg";
+import projGlowie from "@/assets/glowie.jpg";
+import projEstavine from "@/assets/estavine.jpg";
+import imgProjectPersonal from "@/assets/course-dicoding.jpg";
+import projTracker from "@/assets/track.io.jpg";
 
 import marshyaPhoto from "@/assets/marshya.jpeg";
 
@@ -33,13 +33,13 @@ import cert7 from "@/assets/cert7.jpeg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Marshya Salsabilla — Frontend Developer & UI Designer" },
+      { title: "Marshya Salsabilla — Frontend Developer & UI/UX Designer" },
       {
         name: "description",
         content:
           "Portfolio Marshya Salsabilla — Informatics Engineering student passionate about frontend development and modern UI design.",
       },
-      { property: "og:title", content: "Marshya Salsabilla — Frontend Developer & UI Designer" },
+      { property: "og:title", content: "Marshya Salsabilla — Frontend Developer & UI/UX Designer" },
       {
         property: "og:description",
         content: "Crafting modern, responsive, and user friendly digital experiences.",
@@ -103,28 +103,28 @@ const projects = [
     tag: "Mobile App · UI Design",
     img: projProdify,
     desc: "Productivity and time management mobile app interface. Clean, user-friendly UI with activity tracking and responsive layouts built in Figma.",
-    link: "https://www.figma.com/design/NrcffbhggwkGXjAVA485MX/prodify?node-id=0-1&t=RunDeuTM39JbMtqI-1",
+    link: "https://www.figma.com/design/NrcffbhggwkGXjAVA485MX/prodify?node-id=0-1&t=ngLlmPVsmtqzPKcS-1",
   },
   {
     title: "ZeroWaste",
-    tag: "Competition · Fesmaro",
+    tag: "Competition · Finalist Fesmaro",
     img: projZeroWaste,
     desc: "A mobile app themed around waste management and sustainability — engaging, intuitive interface to encourage recycling and food waste awareness.",
-    link: "https://www.figma.com/design/bvTRe9tCrH5b3ZvzMlX1tb/fesmaro?t=RunDeuTM39JbMtqI-1",
+    link: "https://www.figma.com/design/bvTRe9tCrH5b3ZvzMlX1tb/fesmaro?node-id=0-1&t=KoxpWfgcylqVlloL-1",
   },
   {
     title: "Glowie",
     tag: "Beauty App · Award Winner",
     img: projGlowie,
     desc: "Beauty and skincare mobile application with soft, modern visuals. Winner of the Informatics Engineering Orientation Program Competition.",
-    link: "https://www.figma.com/design/jGVhVepTSGcRf8I5dAnnI3/wireframe-glowiee?node-id=0-1&t=nXOkNY5vmynL3uQO-1",
+    link: "https://www.figma.com/design/jGVhVepTSGcRf8I5dAnnI3/wireframe-glowiee?node-id=0-1&t=Ls9nAUKC6XvSI8ka-1",
   },
   {
     title: "@estavine.co",
     tag: "Marketplace Website",
     img: projEstavine,
     desc: "Marketplace concept for handmade accessories and crochet products — aesthetic visual design with product showcases and a responsive UI.",
-    link: "https://www.instagram.com/estavine.co/",
+    link: "https://estavineco.vercel.app/",
   },
   {
     title: "Website Course Dicoding",
@@ -150,6 +150,8 @@ const certificates = [
   { title: "Certificate of UI/UX Competition", img: cert5 },
   { title: "Certificate Course Completion", img: cert6 },
   { title: "Certificate of UI/UX Competition", img: cert7 },
+  { title: "Certificate of Bootcamp Figma", img: cert8 },
+  { title: "Certificate of Bootcamp Figma", img: cert9 },
 ];
 
 function Portfolio() {
