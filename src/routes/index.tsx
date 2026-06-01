@@ -13,7 +13,7 @@ import {
   Phone,
 } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import projProdify from "@/assetss/prodify.jpg";
+import projProdify from "@/assets/prodify.jpg";
 import projZeroWaste from "@/assets/zerowaste.jpg";
 import projGlowie from "@/assets/glowie.jpg";
 import projEstavine from "@/assets/estavine.jpg";
@@ -51,7 +51,18 @@ export const Route = createFileRoute("/")({
   component: Portfolio,
 });
 
-const hardSkills = ["Cisco", "HTML", "CSS", "JavaScript", "Python", "Canva", "VsCode", "GitHub", "Figma", "Ms Office"];
+const hardSkills = [
+  "Cisco",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "Python",
+  "Canva",
+  "VsCode",
+  "GitHub",
+  "Figma",
+  "Ms Office",
+];
 const softSkills = [
   { icon: Users, label: "Communication" },
   { icon: Heart, label: "Teamwork" },
