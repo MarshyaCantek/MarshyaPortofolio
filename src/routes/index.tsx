@@ -52,7 +52,6 @@ export const Route = createFileRoute("/")({
 });
 
 const hardSkills = [
-  "Cisco",
   "HTML",
   "CSS",
   "JavaScript",
@@ -61,6 +60,7 @@ const hardSkills = [
   "VsCode",
   "GitHub",
   "Figma",
+  "Cicso",
   "Ms Office",
 ];
 const softSkills = [
@@ -103,7 +103,7 @@ const education = [
   {
     school: "Institut Asia Malang",
     program: "Informatics Engineering — Undergraduate",
-    period: "2025 — present",
+    period: "2025 — Present",
   },
   { school: "SMKN 1 Dlanggu", program: "Computer and Network Engineering", period: "2022 — 2025" },
   { school: "SMPN 1 Dlanggu", program: "Junior High School", period: "2019 — 2022" },
@@ -630,7 +630,7 @@ function Portfolio() {
       <footer className="border-t border-border py-8">
         <div className="max-w-6xl mx-auto px-6 flex flex-wrap justify-between items-center gap-3 text-sm text-muted-foreground">
           <div>© 2026 Marshya Salsabilla.</div>
-          <div>Designed & built with care in Malang.</div>
+          <div>Designed & built with care at Malang.</div>
         </div>
       </footer>
     </div>
