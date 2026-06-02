@@ -56,11 +56,11 @@ const hardSkills = [
   "CSS",
   "JavaScript",
   "Python",
-  "Canva",
+  "Figma",
   "VsCode",
   "GitHub",
-  "Figma",
-  "Cicso",
+  "Canva",
+  "Cisco",
   "Ms Office",
 ];
 const softSkills = [
