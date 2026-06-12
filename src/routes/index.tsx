@@ -31,6 +31,7 @@ import cert6 from "@/assets/cert6.jpeg";
 import cert7 from "@/assets/cert7.jpeg";
 import cert8 from "@/assets/cert8.jpg";
 import cert9 from "@/assets/cert9.jpg";
+import cert10 from "@/assets/cert10.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -165,6 +166,7 @@ const certificates = [
   { title: "Certificate of UI/UX Competition", img: cert7 },
   { title: "Certificate of Bootcamp Figma", img: cert8 },
   { title: "Certificate of Bootcamp Figma", img: cert9 },
+  { title: "Certificate of Course Revou", img: cert10 },
 ];
 
 function Portfolio() {
